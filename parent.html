@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    .image:hover {
+        width: 100px;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+        transform: scale(1.2);
+      }
+    aside {
+        width: 90%;
+        padding-left: 15px;
+        margin-left: 10px;
+        float: right;
+        background-color: rgb(242, 242, 213);
+     }
+
+    a{
+        color:  rgb(22, 15, 72);
+        font-size:large;
+        font-style:oblique;
+     }
+    .container{ 
+        background-color: lavender;
+        border: 2px solid rgb(22, 15, 72);
+        border-radius: 15px ;
+     }
+    #h2{
+        color: orange;
+        font-size:x-large;
+     }
+     /*adver*/
+     .popup-container {
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      position: relative;
+      z-index: -1 ;
+        }
+        #adver{
+          background-color: rgb(168, 167, 167);
+          color: rgb(9, 9, 199);
+          font-size: small;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          text-align: center;
+          width: 100px;
+          margin-left: 500px;
+        }
+        @keyframes rotate {
+      0% {
+        transform: rotate(0deg); 
+      }
+      100% {
+        transform: rotate(360deg); 
+      }
+    }
+#t1{
+  background-color:  rgb(212, 234, 212);
+  color:  rgb(7, 68, 28);
+  border-radius: 15px;
+  text-align: center;
+  width: 250px;
+  margin-left: 600px;
+  border:2px solid  rgb(7, 68, 28);             
+   }
+.t1:hover{
+  animation: rotate 4s linear infinite;
+}
+#imgA3{
+  width: 250px ;
+  height: 300px;
+  border-radius: 15px;
+
+}
+.containerA {
+  background-image: url(archi1.jpg);
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid rgb(7, 68, 28);
+  text-align: center;
+  border-radius: 15px;
+}
+#parchi{
+  background-color: rgb(212, 234, 212);
+  border-radius: 15px;
+}
+#t2{
+  background-color:  rgb(249, 249, 202);
+  color: rgb(2, 48, 2);
+  border-radius: 15px;
+  text-align: center;
+  width: 250px;
+  margin-left: 600px;
+  border:2px solid   rgb(2, 48, 2);             
+   }
+#pscup{
+  background-color: rgb(249, 249, 202);
+  border-radius: 15px;
+  border: 2px solid rgb(2, 48, 2);
+  text-align: center;
+}
+#t3{
+  background-color: rgb(240, 178, 122);
+  color: black;
+  border-radius: 15px;
+  text-align: center;
+  width: 250px;
+  margin-left: 600px;
+  border:2px solid black;               
+}
+#pav{
+  background-color: rgb(249, 249, 222);
+  border-radius: 15px;
+  border: 2px solid black;
+  text-align: center;
+}
+#t4{
+  background-color: rgb(248,248,207);
+  color: black;
+  border-radius: 15px;
+  text-align: center;
+  width: 250px;
+  margin-left: 600px;
+  border:2px solid black;     
+}
+#pmus {
+    background-color: rgb(248, 248, 207); 
+    border: 2px solid rgb(193,154,107);
+    border-radius: 15px;
+}
+#imgmus1{
+    width: 570px;
+    border-radius: 15px; 
+    margin-left: 390px;
+}
+#imgmus2{
+  width: 500px;
+  border-radius: 15px;
+}
+#t5{
+  background-color: rgb(239, 252, 239); 
+  color: black;
+  border-radius: 15px;
+  text-align: center;
+  width: 250px;
+  margin-left: 600px;
+  border:2px solid black;  
+}
+#plitt{
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: rgb(239, 252, 239);
+}
+#imglitt1{
+  width: 1000px;
+  height: 250px;
+  margin-left: 170px;
+  border-radius: 15px;
+}
+#imglitt2{
+  width: 450px;
+  height: 300px;
+  border-radius: 15px;
+  margin-left: 150px;
+}
+#t6{
+  background-color: rgb(252, 240, 242); 
+  color: rgb(81, 6, 6);
+  border-radius: 15px;
+  text-align: center;
+  width: 250px;
+  margin-left: 600px;
+  border:2px solid rgb(81, 6, 6);
+}
+#imgas{
+  border-radius: 15px;
+  margin-left: 100px;
+}
+#pas{
+  border: 2px solid rgb(81, 6, 6);
+  background-color: rgb(252, 240, 242);
+  border-radius: 15px;
+}
+#t7{
+  background-color: rgb(250, 250, 194); 
+  color: orangered;
+  border-radius: 15px;
+  text-align: center;
+  width: 250px;
+  margin-left: 600px;
+  border:2px solid orangered;
+}
+#imgcin1{
+  margin-left: 300px;
+  width: 700px;
+  height: 450px;
+  border-radius: 15px;
+}
+.pcin{
+  border: 2px solid orangered;
+  border-radius: 15px;
+  background-color: rgb(250, 250, 194);
+}
+a{
+    color:  rgb(22, 15, 72);
+    font-size:large;
+    font-style:oblique;
+}
+.case{overflow: hidden;
+    border: 1px solid rgb(13, 49, 13);
+    background-color: rgb(226, 232, 240);
+    width: 100%;
+    border-radius: 55px;
+    position: fixed;
+    display: inline;
+}
+.button{
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  width: 12.5%;
+  height: 70px;
+}
+.case button:hover{
+    background-color: rgb(22, 15, 72);
+}
+    </style>
+    <title></title>
+</head>
+<body>
+  <div class="case">
+  <button class="button"><a href="page1.html" id="a">Accueil</a></button>
+  <button class="button"><a href="#archi" id="a">Architecture</a></button>
+  <button class="button"><a href="#sculpture" id="a">Sculpture</a></button>
+  <button class="button"><a href="#av" id="a">Arts visuels</a></button>
+  <button class="button"><a href="#musique" id="a">Musique</a></li> </button>
+  <button class="button"><a href="#littérature" id="a">Littérature</a></button>
+  <button class="button"><a href="#as" id="a">Arts de la scène</a></button>
+  <button class="button"><a href="#cinéma" id="a">Cinéma</a></button>
+</div><br><br><br><br>
+  <div class="popup-container">
+    <video src="Commercial.mp4"  autoplay muted loop width="900" height="250"></video>
+    <p id="adver">Advertisement</p>
+ </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="bg-primary text-white p-3"> 
+            </div>
+          </div>
+          <div class="col-md-1">
+            <div class="col">
+              <h2 id="h2">Architecture</h2>
+            <a href="#archi"><img src="archi.jpg" alt="archi" width="90" height="100" class="image"></a>
+              <aside><p>L'architecture est l'art majeur de concevoir des espaces et de 
+                bâtir des édifices,en respectant des règles de construction empiriques 
+                ou scientifiques, ainsi que des concepts esthétiques, classiques ou 
+                nouveaux, de forme et d'agencement d'espace, en y incluant les aspects 
+                sociaux et environnementaux liés à la fonction de l'édifice et à son 
+                intégration dans son environnement, quelle que soit cette 
+                fonction: habitable, sépulcrale, rituelle, institutionnelle, religieuse,
+                défensive, artisanale, commerciale, scientifique, signalétique, muséale,
+                industrielle, monumentale, décorative, paysagère, voire purement 
+                artistique.</p>
+                <a href="#archi">......</a></aside> 
+            </div>
+          </div>
+          <div class="col-md-1">
+            <div class="col">
+              <h2 id="h2">Sculpture</h2>
+                  <a href="#sculpture"><img src="scup.jpg" alt="scup" width="75" height="90" class="image"></a>
+                  <aside><p>La sculpture est une activité artistique qui consiste à concevoir et 
+                    réaliser des formes en volume, en relief, soit en ronde-bosse (statuaire), 
+                    en haut-relief, en bas-relief, par modelage, par taille directe, par soudure ou 
+                    assemblage. Le terme de sculpture désigne également l'objet résultant de 
+                    cette activité.</p>
+                    <a href="#sculpture">......</a></aside>
+            </div>
+          </div>
+          <div class="col-md-1">
+            <div class="col">
+              <h2 id="h2">Arts visuels </h2>
+              <a href="#av"><img src="av.jpg" alt="av" width="70" height="90" class="image"></a>
+              <aside><p>Les arts visuels sont les arts qui produisent des objets perçus essentiellement
+                par l'œil. Ils englobent les arts plastiques traditionnels (les anciens 
+                beaux-arts dégagés de la notion restrictive d'esthétique, comme du 
+                « beau »), auxquels s'ajoutent les techniques nouvelles : la photographie, 
+                le cinéma, l'art vidéo et l'art numérique, mais aussi les arts appliqués, 
+                les arts décoratifs (art textile, design, marqueterie…) et l'architecture.</p>
+                <a href="#av">......</a></aside>
+            </div>
+          </div>
+          <div class="col-md-1">
+            <div class="col">
+              <h2 id="h2">Musique</h2>
+                <a href="#musique"><img src="mus.jpg" alt="mus" width="80" height="90" class="image"></a>
+                <aside><p>La musique est un art et une activité culturelle consistant à combiner sons et
+                  silences au cours du temps. Les paramètres principaux sont le rythme (façon de 
+                  combiner les sons dans le temps), la hauteur (combinaison dans les fréquences), 
+                  les nuances et le timbre. Elle est aujourd'hui considérée comme une forme de poésie moderne.</p>
+                <a href="#musique">......</a></aside>
+            </div>
+          </div>
+          <div class="col-md-1">
+            <div class="col">
+              <h2 id="h2">Littérature</h2>
+                    <a href="#littérature"><img src="litt.jpg" alt="litt" width="80" height="90" class="image"></a>
+                    <aside><p>La littérature est l'ensemble des œuvres écrites ou orales auxquelles on 
+                        reconnaît une valeur esthétique ; c'est un art exprimant un idéal de beauté. 
+                        Grâce aux productions littéraires, elle permet de manifester des émotions et de 
+                        révéler aux lecteurs ou aux auditeurs ce qu'une personne a dans le cœur. La 
+                        littérature vise à éduquer, à communiquer des pensées, à influencer et même à 
+                        séduire. La littérature constitue un héritage patrimonial et peut concourir à la 
+                        préservation du patrimoine d'un pays, lorsqu'elle en souligne les 
+                        valeurs, la culture et la civilisation.</p>
+                    <a href="#littérature">......</a></aside>
+    
+            </div>
+          </div>
+          <div class="col-md-1">
+            <div class="col">
+              <h2 id="h2">Arts de la scène</h2>
+                    <a href="#as"><img src="as.jpg" alt="as" width="80" height="110" class="image"></a>
+                    <aside><p>Les Arts de la scène couvrent « les domaines d'expression artistique dont les 
+                        créations et les réalisations font appel à des artistes, artisans et techniciens et 
+                        aux techniques des arts d'interprétation, et sont notamment diffusées sous la forme 
+                        du spectacle vivant ». Il est un outil d'expression et d'intégration. Il s'agit plus
+                        précisément des gestes et projets artistiques destinés au grand public qu'il soit 
+                        adulte ou enfant.
+                        Comme art de la scène on peut citer : Le théâtre, la danse, le mime, le cirque.</p>
+                    <a href="#as">......</a></aside>
+            </div>
+          </div>
+          <div >
+            <div class="col">
+              <h2 id="h2">Cinéma</h2>
+                    <a href="#cinéma"><img src="cin.jpg" alt="cin" width="80" height="100" class="image"></a>
+                    <aside><p>Le cinéma est un art du spectacle. En français, il est désigné comme le 
+                        « septième art », d'après l'expression du critique Ricciotto Canudo dans les années 
+                        1920[1]. L'art cinématographique se caractérise par le spectacle proposé au public 
+                        sous la forme d'un film, c'est-à-dire d'un récit (fictionnel ou documentaire), 
+                        véhiculé par un support (pellicule souple, bande magnétique, contenant numérique) 
+                        qui est enregistré puis lu par un mécanisme continu ou intermittent qui crée l'illusion 
+                        d'images en mouvement, ou par l'enregistrement et la lecture continue de données 
+                        informatiques.</p>
+                    <a href="#cinéma">......</a></aside>
+            </div>
+           <br>
+          </div>
+        </div>
+      </div>
+      <h1 id="t1" class="t1">L'Architecture</h1>
+      <div class="containerA" id="archi">
+          <p id="parchi">Bien sûr ! Parlons de l'architecture. L'architecture est un domaine fascinant qui 
+            englobe la conception, la planification et la construction d'édifices et d'espaces. 
+            C'est un art qui a évolué au fil du temps, reflétant les cultures, les technologies 
+          </p> 
+      
+        <p id="parchi">L'histoire de l'architecture remonte à l'Antiquité, où des civilisations comme
+          les Égyptiens, les Grecs et les Romains ont laissé des monuments emblématiques tels 
+          que les pyramides, les temples et les amphithéâtres. Au Moyen Âge, l'architecture 
+          gothique a émergé avec ses cathédrales élaborées, tandis que la Renaissance a apporté 
+          un retour aux formes classiques et à l'harmonie proportionnelle.</p>
+      <img src="archi2.jpg" alt="2" id="imgA3">
+          <p id="parchi">Au fil des siècles, l'architecture a continué d'évoluer, influencée par des
+            mouvements artistiques et des avancées technologiques. Le 19e siècle a vu l'émergence 
+            de l'architecture industrielle, caractérisée par l'utilisation de matériaux tels que 
+            le fer et le verre. Le 20e siècle a connu divers mouvements, tels que le modernisme, 
+            le brutalisme et le postmodernisme, chacun apportant sa propre esthétique et 
+            philosophie.
+           Aujourd'hui, l'architecture contemporaine intègre des concepts durables, des 
+          technologies innovantes et une approche axée sur l'efficacité énergétique. Les 
+          architectes explorent également des idées novatrices telles que les bâtiments 
+          intelligents, les espaces verts urbains et la réutilisation adaptative des structures 
+          existantes.</p>
+          <img src="archi3.jpg" alt="2" id="imgA3">
+          <img src="" alt=" 3">
+          <p id="parchi">En France, l'architecture a une riche histoire, avec des monuments emblématiques
+            tels que la Tour Eiffel, le Louvre et la cathédrale Notre-Dame de Paris. Les 
+            architectes français, tels que Le Corbusier, ont également joué un rôle majeur dans le
+             développement de mouvements architecturaux influents.</p>
+        </div>
+        <br>
+        <h1 id="t2" class="t1">Sculpture</h1>
+          <table id="sculpture">  
+            <tr>
+            <td><img src="scup1.jpg" alt="1" id="imgA3"></td>
+            <td id="pscup"><p>La sculpture est un art ancien qui remonte à des millénaires. Elle implique la 
+          création de formes tridimensionnelles en sculptant ou en modelant des matériaux tels 
+          que la pierre, le bois, le métal, l'argile, et même des matériaux contemporains comme
+          le plastique. La sculpture offre aux artistes un moyen unique de donner vie à 
+          leurs idées et de représenter la beauté et la diversité du monde qui les entoure.</p>
+      
+          <p>L'histoire de la sculpture est vaste et diversifiée. Les premières sculptures
+          connues remontent à la Préhistoire, avec des exemples tels que les figurines
+          de Vénus préhistoriques. Les civilisations anciennes, telles que l'Égypte, 
+          la Grèce et Rome, ont laissé des sculptures emblématiques représentant des 
+          divinités, des héros et des personnalités importantes. Les périodes de la 
+          Renaissance et du Baroque en Europe ont vu un renouveau de l'art de la
+          sculpture, avec des œuvres maîtresses comme le David de Michel-Ange et 
+          le Bernin.</p></td>
+          </tr>
+          </table>
+          <table>
+            <tr>
+            <td id="pscup"> <p>Les styles et les techniques de sculpture ont évolué au fil des siècles, allant des
+          formes figuratives aux expressions abstraites et contemporaines. Les sculpteurs 
+          explorent différentes méthodes, telles que la taille directe, la modélisation, et 
+          l'assemblage de matériaux. La sculpture contemporaine intègre souvent des concepts 
+          conceptuels, des technologies modernes et des matériaux non traditionnels.</p>
+      
+          <p>La sculpture ne se limite pas aux monuments ou aux statues publiques. Elle
+          englobe également des œuvres d'art plus petites, des installations, et même des 
+          sculptures cinétiques qui prennent vie avec le mouvement. Les artistes sculpteurs 
+          s'expriment à travers une variété de thèmes, allant de l'exploration de la nature à 
+          la réflexion sur des questions sociales et politiques.</p>
+      
+          <p>En France, la sculpture a joué un rôle significatif dans le monde de l'art. 
+          Des artistes tels que Auguste Rodin ont marqué l'histoire de la sculpture avec des 
+          œuvres emblématiques comme "Le Penseur". Aujourd'hui, de nombreux sculpteurs français
+          contemporains continuent d'innover et de contribuer à l'évolution de cet art 
+          fascinant. La sculpture demeure un moyen puissant de capturer l'imagination et 
+          d'exprimer la créativité humaine à travers le langage tactile et visuel.</p></td>
+            <td><img src="scup2.jpg" alt="2" id="imgA3"></td>
+          </tr>
+        </table>
+        <br>
+        <h1 class="t1" id="t3">Arts visuels</h1>
+        <table id="av">
+        <tr><p id="pav">Les arts visuels englobent un large éventail de disciplines artistiques qui 
+          s'expriment principalement à travers des éléments visuels, tels que la peinture, 
+          la sculpture, la photographie, le dessin, l'architecture, la vidéo, l'art numérique 
+          et bien d'autres. Ces formes artistiques visent à créer une expérience esthétique et
+          émotionnelle chez le spectateur en utilisant des éléments visuels comme le point
+          de départ de la communication artistique.</p></tr>
+          <tr id="pav"><td><ul>
+              <li>Peinture : La peinture est l'une des formes d'art visuel les plus anciennes et 
+                  traditionnelles. Les artistes utilisent des techniques variées, des médiums et des 
+                  styles pour créer des œuvres qui explorent des thèmes allant de l'abstrait 
+                  au figuratif.</li>
+              <li>Sculpture : Comme mentionné précédemment, la sculpture est l'art de créer des
+              formes tridimensionnelles en utilisant divers matériaux. Les sculptures 
+              peuvent être massives, comme des monuments, ou plus petites et destinées à
+              une expérience plus intime.</li>
+              <li>Dessin : Le dessin est une forme d'expression artistique qui peut aller de 
+              simples esquisses à des œuvres plus élaborées. Il peut être réalisé avec 
+              divers outils, tels que des crayons, des encres, des pastels ou même 
+              numériquement.</li></td>
+              <td><img src="av1.jpg" alt="1" id="imgA3"><img src="av2.jpg" alt="2" id="imgA3"></td>
+              <td>
+              <li>Photographie : La photographie est un moyen de capturer et de figer des
+              moments dans le temps. Les photographes utilisent la lumière, la composition
+              et la perspective pour créer des images qui peuvent être à la fois 
+              documentaires et artistiques.</li>
+              <li>Architecture : L'architecture combine l'art visuel et la fonctionnalité dans
+              la conception de structures et d'espaces. Les architectes créent des environnements
+              qui influent sur la façon dont nous vivons, travaillons et interagissons avec notre 
+              environnement bâti.</li>
+              <li>Art numérique : Avec l'avancement de la technologie, l'art numérique a émergé 
+              comme une forme artistique contemporaine. Les artistes utilisent des logiciels, 
+              des graphiques par ordinateur et d'autres technologies pour créer des œuvres 
+              visuelles uniques.</li>
+              <li>Installations artistiques : Les installations artistiques sont souvent des œuvres 
+              d'art en trois dimensions créées pour un lieu spécifique. Elles peuvent impliquer 
+              des éléments sculpturaux, des performances, des jeux de lumière, etc.</li>
+          </ul></td></tr>
+      </table>
+        <p id="pav">Les arts visuels jouent un rôle essentiel dans la culture, permettant aux artistes 
+          d'exprimer des idées, de susciter des émotions, de questionner la réalité et de 
+          communiquer des messages sociaux et politiques. Ils offrent également une diversité 
+          infinie de perspectives et d'approches, reflétant la richesse de la créativité 
+          humaine à travers les époques et les cultures.</p> 
+      <br>
+        <h1 class="t1" id="t4">La Musique</h1>
+      <table id="musique">
+        <tr ><td id="pmus">
+          <img src="mus1.jpg" alt="1" id="imgmus1">
+        <p>La musique est un langage universel qui transcende les barrières culturelles et 
+          linguistiques, évoquant des émotions, des souvenirs et des expériences partagées.
+          C'est une forme d'art sonore qui utilise des éléments tels que la mélodie, 
+          le rythme, l'harmonie et la dynamique pour créer des compositions expressives. 
+          Voici quelques aspects essentiels de la musique :</p>
+          <ul>
+              <li><span>Genres musicaux :</span> La musique englobe une vaste gamme de genres, des classiques comme
+              le jazz, le rock, la pop, le hip-hop, la musique électronique, la musique 
+              folklorique, la musique du monde et bien d'autres. Chaque genre a ses propres 
+              caractéristiques stylistiques, historiques et culturelles.</li>
+              <li><span>Éléments musicaux :</span>
+                  <ul>
+                  <li><span id="sp">Mélodie :</span> La séquence de notes qui forme la ligne principale d'une pièce.</li>
+                  <li><span id="sp">Rythme :</span> Le motif temporel et la pulsation qui sous-tendent la musique.</li>
+                  <li><span id="sp">Harmonie :</span> La combinaison simultanée de notes pour créer des accords.</li>
+                  <li><span id="sp">Dynamique :</span> Les variations de volume qui ajoutent de l'expressivité.</li>
+                  </ul>
+              </li>
+              <li><span>Instruments de musique :</span> Les instruments jouent un rôle clé dans la création de
+              musique. Ils peuvent être classés en différentes catégories, tels que les 
+              instruments à cordes, à vent, à percussion et électroniques.</li>
+              <li><span>Composition et interprétation :</span> Les compositeurs créent des œuvres musicales en 
+              écrivant des partitions, tandis que les interprètes donnent vie à ces compositions
+              à travers des performances live ou des enregistrements.</li>
+      </td>
+      </tr></table>
+      <table id="pmus">
+      <tr><td>
+              <li><span>Évolution de la musique :</span> La musique évolue constamment, reflétant les changements 
+              sociaux, culturels et technologiques. Des époques musicales distinctes, comme la 
+              musique baroque, classique, romantique et contemporaine, ont laissé leur empreinte
+              sur l'histoire de la musique.</li>
+              <li><span>Impact culturel :</span> La musique a un impact profond sur la culture. Elle peut 
+              servir de moyen d'expression artistique, de catharsis émotionnelle, de 
+              protestation sociale, et elle accompagne souvent des moments clés de la vie.</li>
+              <li><span>Technologie et musique :</span> Les avancées technologiques ont révolutionné la
+              création, la production et la diffusion de la musique. L'enregistrement 
+              audio, la synthèse sonore, les logiciels de production musicale et la
+              diffusion en streaming ont tous contribué à façonner le paysage musical 
+              contemporain.</li>
+              <li><span>Musique et émotions : </span>La musique a le pouvoir de susciter une gamme variée 
+              d'émotions, qu'il s'agisse de joie, de tristesse, d'excitation ou de contemplation.
+              Elle est souvent utilisée comme moyen de communication émotionnelle universelle.</li>
+          </ul>
+          <p>En résumé, la musique est bien plus qu'une simple série de sons organisés. Elle est 
+          une forme artistique profonde qui transcende les frontières culturelles, influençant
+          nos vies de manière significative. Que ce soit pour célébrer, se détendre, réfléchir
+          ou simplement apprécier la beauté des sons, la musique reste une partie intégrante de
+          l'expérience humaine.</p>
+      </td></tr
+      tr><td><img src="mus2.jpg" alt="2" id="imgmus1"></td></tr>
+      </table>
+      <br>
+      <h1 class="t1" id="t5">La Littérature</h1>
+      <img src="litt1.jpg" alt="1" id="imglitt1">
+      <table id="littérature">
+       <td id="plitt">
+      <p>La littérature est un art qui utilise le langage écrit pour exprimer des idées, des émotions et des expériences. Elle englobe une vaste gamme de formes, y compris la poésie, le roman, la nouvelle, le théâtre, l'essai, et bien d'autres. Voici quelques points clés pour comprendre la littérature :</p>
+      <ul>
+      <li><span>Genres littéraires :</span> La littérature comprend divers genres, chacun ayant ses
+      propres caractéristiques et conventions. Parmi les genres les plus courants, on 
+      trouve la fiction (romans, nouvelles), la poésie, le théâtre, l'essai, la biographie,
+      et le conte.</li>
+      <li><span>Styles littéraires : </span>Les écrivains développent leur style personnel qui peut
+      être narratif, descriptif, lyrique, satirique, ou même expérimental. Le choix du 
+      langage, la structure des phrases et l'utilisation des figures de style contribuent 
+      au style d'un écrivain.</li>
+      <li><span>Mouvements littéraires :</span> Au fil de l'histoire, la littérature a été influencée
+      par divers mouvements tels que le romantisme, le réalisme, le symbolisme, le modernisme,
+      le postmodernisme, et d'autres. Ces mouvements reflètent les préoccupations artistiques
+      et sociales de leur époque.</li>
+      <li><span>Les classiques littéraires :</span> Certains ouvrages littéraires ont
+      acquis le statut de "classiques", étant considérés comme des œuvres exceptionnelles 
+      et intemporelles. Des auteurs tels que William Shakespeare, Jane Austen, Leo Tolstoï
+      et Gabriel García Márquez ont créé des œuvres qui continuent à être étudiées et 
+      appréciées.</li>
+      </td>
+      <td id="plitt">
+        <img src="litt2.jpg" alt="2" id="imglitt2">
+      <li><span>Rôle de la littérature :</span> La littérature joue un rôle essentiel dans
+      la société en reflétant les valeurs, les croyances et les défis de l'époque. Elle peut 
+      également servir de moyen d'exploration intellectuelle, de critique sociale, et d'outil 
+      pour susciter la réflexion et l'empathie.</li>
+      <li><span>Écriture contemporaine :</span> La littérature contemporaine est diversifiée 
+      et exploratoire. Les auteurs contemporains explorent des thèmes variés et adoptent
+      souvent des approches innovantes en termes de narration, de structure et de style.</li>
+      <li><span>Langue et traduction :</span> La littérature est souvent liée à une 
+      langue particulière, mais les traductions permettent à une œuvre d'être accessible à
+      un public mondial. La traduction littéraire joue un rôle crucial dans la diffusion 
+      des idées à travers les cultures.</li>
+      <li><span>Influence sur les arts :</span> La littérature interagit souvent avec 
+      d'autres formes d'art, comme le cinéma, la musique, la peinture, et inspire des adaptations
+      dans d'autres médias.</li>
+      </ul>
+      <p>En résumé, la littérature est une fenêtre sur l'âme humaine, offrant des perspectives sur
+      la condition humaine, la diversité des expériences, et les défis de la vie. Elle continue
+      de façonner notre compréhension du monde, nourrissant notre imagination et stimulant 
+      notre réflexion.</p>
+      </td>
+      </table>
+      <br>
+      <h1 class="t1" id="t6">Arts de la scène</h1>
+      <table class="pas" id="as">
+      <td>
+        <p>Les arts de la scène désignent un ensemble d'expressions artistiques qui sont 
+        interprétées devant un public en direct. Ces formes d'art incluent le théâtre, 
+        la danse, la musique jouée en direct, l'opéra, le cirque et d'autres performances
+        qui ont lieu sur scène. Voici quelques éléments clés concernant les arts de la 
+        scène :</p>
+        <ul>
+        <li><span>Théâtre :</span> Le théâtre est une forme d'art qui utilise la performance
+            en direct pour présenter des histoires, des idées et des émotions. Les acteurs, 
+            metteurs en scène, concepteurs de décors et de costumes collaborent pour créer
+            une expérience théâtrale unique.</li>
+      
+        <li><span>Danse :</span> La danse est une forme artistique qui utilise le mouvement du
+            corps pour exprimer des idées, des émotions et des récits. Les genres de danse incluent
+            la danse classique, la danse contemporaine, la danse jazz, la danse hip-hop, et 
+            d'autres styles.</li>
+            <img src="as1.jpg" alt="1" id="imgas" width="250" height="300">
+      </td>
+      <td>
+        <img src="as2.jpg" alt="2" id="imgas" width="350" height="250">
+        <li><span>Musique jouée en direct :</span> Les concerts et les performances musicales
+            en direct font partie des arts de la scène. Cela inclut des orchestres, des groupes
+            de musique, des chanteurs solistes et d'autres musiciens qui se produisent sur scène
+            devant un public.</li>
+      
+        <li><span>Opéra :</span> L'opéra combine la musique et le théâtre, mettant en scène des
+            chanteurs et des musiciens pour raconter des histoires à travers des compositions
+            vocales et instrumentales. Les opéras incluent souvent des éléments dramatiques 
+            et visuels élaborés.</li>
+      
+        <li><span>Cirque :</span> Le cirque est une forme d'art de la scène qui combine des 
+            éléments de spectacle, d'acrobatie, de jonglerie, de clowneries et d'autres performances
+            physiques et artistiques.</li>
+          
+      </td>
+      <td>
+      
+          <li><span>Improvisation :</span> Certains arts de la scène, en particulier le théâtre
+            d'improvisation, impliquent des performances spontanées où les acteurs créent des
+            scènes et des dialogues sans script préétabli.</li>
+      
+        <li><span>Mise en scène et direction :</span> Les metteurs en scène et les directeurs 
+            artistiques jouent un rôle crucial dans la création et la réalisation des arts de la
+            scène. Ils dirigent les acteurs, chorégraphient les mouvements, et supervisent tous
+            les aspects de la production.</li>
+      
+        <li><span>Interaction avec le public : </span>Les arts de la scène impliquent souvent
+            une interaction directe avec le public. Les réactions en direct et l'énergie de
+            l'auditoire sont des éléments clés de l'expérience des arts de la scène.</li>
+        </ul>  
+        <img src="as3.jpg" alt="3" id="imgas" width="300" height="350">
+      </td>
+      </table>
+      <p id="pas">Les arts de la scène offrent une expérience artistique immersive, permettant au 
+          public de vivre la performance en direct. Ils sont un moyen puissant de transmettre
+          des émotions, des idées et des récits, créant des moments mémorables et enrichissants
+          pour ceux qui y assistent. Ces formes d'art jouent un rôle essentiel dans la diversité 
+          culturelle et artistique de nos sociétés.</p>
+      <br>
+      <h1 class="t1" id="t7">Cinéma</h1>
+      <div class="pcin" id="cinéma">
+      <p>Le cinéma est une forme d'art visuel et narratif qui combine le mouvement,
+        l'image, le son et la narration pour créer une expérience immersive. Il s'agit
+        d'un médium puissant qui a évolué depuis son invention au début du 20e siècle 
+        pour devenir l'une des formes de divertissement les plus influentes et appréciées 
+        dans le monde. Voici quelques éléments clés concernant le cinéma :</p>
+        <p>Histoire du cinéma : Les frères Lumière sont souvent crédités de la première projection 
+        cinématographique publique en 1895. Depuis lors, le cinéma a connu une croissance exponentielle,
+         passant du cinéma muet aux films sonores, puis à la couleur, à la 3D et aux effets spéciaux 
+         avancés.
+        Genres cinématographiques : Le cinéma englobe une variété de genres, notamment le drame,
+        la comédie, l'action, la science-fiction, l'horreur, le documentaire, le film d'animation,
+        et bien d'autres. Chaque genre a ses propres conventions narratives, esthétiques et 
+        émotionnelles.</p>
+        <p>Rôle des réalisateurs : Les réalisateurs jouent un rôle clé dans la création d'un film. 
+        Ils sont responsables de la mise en scène des acteurs, du choix des angles de caméra, de
+        la direction artistique, du montage et de la cohérence globale de la vision du film.
+        Acteurs et performances : Les acteurs sont les visages et les voix des films. Leur 
+        interprétation des personnages donne vie aux scénarios, évoque des émotions et crée une 
+        connexion entre le public et l'histoire.</p></div>
+        <img src="cin1.jpg" alt="1" id="imgcin1">
+        <div class="pcin"><p>Scénario et narration : Un bon scénario est la pierre angulaire d'un film réussi.
+        Il crée une structure narrative, développe des personnages complexes et engage le public
+        à travers des rebondissements et des développements intrigants.
+        Bande sonore : La musique et les effets sonores contribuent à l'atmosphère et à l'émotion
+        d'un film. Une bande sonore bien choisie peut renforcer les moments clés et créer une 
+        expérience sensorielle mémorable.</p>
+        <p>Technologie cinématographique : Les avancées technologiques ont considérablement influencé
+        le cinéma. Des caméras haute résolution aux effets spéciaux numériques, la technologie
+        a élargi les possibilités créatives des réalisateurs.
+        Festivals de cinéma : Les festivals de cinéma, tels que Cannes, Sundance, et Berlinale, 
+        sont des plateformes cruciales pour présenter des films indépendants et internationaux, 
+        ainsi que pour honorer les réalisateurs et acteurs talentueux.</p>
+        <p>Impact culturel : Le cinéma a un impact profond sur la culture populaire et la société.
+        Il peut influencer les opinions, refléter les préoccupations sociales, et offrir une 
+        fenêtre sur différentes réalités culturelles.
+        Le cinéma est bien plus qu'un simple divertissement. C'est un moyen d'expression artistique
+        qui explore la condition humaine, provoque la réflexion, et offre une expérience cinématographique
+        unique. De l'écran géant aux services de streaming en ligne, le cinéma continue de captiver
+        et de divertir les publics du monde entier.</p>
+      
+      <table>
+        <td><img src="cin2.jpg" alt="2" id="imgas" width="500" height="350"></td>
+        <td><img src="cin3.jpg" alt="3" id="imgas" width="550" height="350"></td>
+      </table>
+      </div>
+        
+</body>
+</html>
